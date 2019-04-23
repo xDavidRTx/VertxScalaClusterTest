@@ -7,7 +7,7 @@ credentials += Credentials(new File("credentials.properties"))
 
 lazy val playerApplication = (project in file("."))
   .settings(
-    name := "ui-kafka-log-producer",
+    name := "dummyVerticle",
     mainClass in assembly := Some("io.vertx.core.Launcher"),
     libraryDependencies ++= Seq(
       Library.Vertx_lang_scala,
